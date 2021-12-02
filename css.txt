@@ -1,0 +1,249 @@
+/* page */
+
+*{
+    font-family: Roboto, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+body{
+  width: 21cm;
+  height: 29.7cm;
+  margin: auto;
+  background: #ededed;
+}
+
+header{
+    padding: 15px 0px 0px 35px;
+    background-color: #1b1e36;
+    box-shadow: 0px 0px 15px #bbb;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+} 
+
+footer{
+    padding: 15px 0px 15px 35px;
+    background-color: #1b1e36;
+    box-shadow: 0px 0px 15px #bbb;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+header{
+    height: 160px;
+}
+header h1{
+    color: white;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 10px auto;
+    text-shadow: 1px 1px 2px #bbb;
+} 
+
+header h2{
+    color: white;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 10px auto;
+    text-shadow: 1px 1px 2px #bbb;
+}
+
+h2 {
+  color :  #004d6d;
+}
+
+
+h1 {
+  font-size: 48px;
+}
+
+h1_b {
+  text-align: center;
+  font-size: 48px;
+  color : white;
+}
+
+h2_b {
+  text-align: center;
+  font-size: 35px;
+  color : #4f84a3;
+}
+
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+p1{
+    font-size: 1em;
+    line-height: 1.5em;
+  	text-align: center;
+}
+
+a{
+    color: #000;
+    text-decoration:none ;
+}
+
+p_b {
+  font-size: 12px;
+  max-width: 30%;
+  min-width: 500px;
+  color : white;
+}
+
+div {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+
+
+
+
+
+
+.contact-h3t{
+    font-size:  1.2em;
+  	font-weight: bold;
+  	color: #e64207;
+}
+
+.contact-h3c{
+    font-size:  1.2em;
+  	font-weight: bold;
+  	color: #e64207;
+  	text-align: center;
+  	margin-left: -1em;
+}
+
+.m{
+  	text-align: center;  
+}
+
+.b{
+  	text-align: center;
+  	border-top: 0.1em dashed #C2BCB7;
+}
+
+.marge {
+margin-left: 5em;
+}
+
+.marge2 {
+margin-left: 13em;
+}
+
+/* logo */
+
+.fit-picture {
+    width: 15px;
+}
+
+.fit-picture2 {
+    width: 20px;
+}
+
+.fit-social {
+    width: 25px;
+}
+
+.fit-titre {
+    width: 30px;
+}
+
+.fit-logo {
+    width: 120px;
+  	margin-left: 4em;
+}
+
+.fit-logo2 {
+    width: 120px;
+  	margin-left: 38em;
+}
+
+.fit-langue {
+    width: 22px;
+}
+
+
+
+/* sections */
+
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin: 15px auto;
+    box-shadow: 0px 0px 15px #bbb;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+section h2{
+    margin: 20px 0;
+    width: 90%;
+}
+
+section > div{
+    width: 90%;
+}
+
+
+/* coordonnées */
+
+.prez{
+  border-top: 0.3rem solid #2a5670;  
+  border-bottom: 0.3rem solid #2a5670;
+    text-align: center;
+}
+
+.contact-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.contact-flex p:first-child{
+    flex: 0 0 75%;
+
+}
+
+.flex2{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.flex2 p:first-child{
+    flex: 0 0 68%;
+
+}
+
+/* expériences */
+
+.exp{
+    display: flex;
+    border-top: 0.1em dashed #bbb;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.exp h3{
+    font-size:  1.2em;
+    font-weight: bold;
+}
+
+.exp h3t{
+    font-size:  1.2em;
+  	font-weight: bold;
+  	color: #e64207;
+}
