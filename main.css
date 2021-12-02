@@ -1,249 +1,272 @@
-/* page */
-
-*{
-    font-family: Roboto, sans-serif;
-    padding: 0px;
-    margin: 0px;
-    text-align: justify;
-    box-sizing: border-box;
-}
-body{
-  width: 21cm;
-  height: 29.7cm;
-  margin: auto;
-  background: #ededed;
-}
-
-header{
-    padding: 15px 0px 0px 35px;
-    background-color: #1b1e36;
-    box-shadow: 0px 0px 15px #bbb;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-} 
-
-footer{
-    padding: 15px 0px 15px 35px;
-    background-color: #1b1e36;
-    box-shadow: 0px 0px 15px #bbb;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-}
-
-header{
-    height: 160px;
-}
-header h1{
-    color: white;
-    font-size: 1.5em;
-    width: 90%;
-    margin: 10px auto;
-    text-shadow: 1px 1px 2px #bbb;
-} 
-
-header h2{
-    color: white;
-    font-size: 1.5em;
-    width: 90%;
-    margin: 10px auto;
-    text-shadow: 1px 1px 2px #bbb;
-}
-
-h2 {
-  color :  #004d6d;
-}
-
-
-h1 {
-  font-size: 48px;
-}
-
-h1_b {
-  text-align: center;
-  font-size: 48px;
-  color : white;
-}
-
-h2_b {
-  text-align: center;
-  font-size: 35px;
-  color : #4f84a3;
-}
-
-p{
-    font-size: 1em;
-    line-height: 1.5em;
-}
-
-p1{
-    font-size: 1em;
-    line-height: 1.5em;
-  	text-align: center;
-}
-
-a{
-    color: #000;
-    text-decoration:none ;
-}
-
-p_b {
-  font-size: 12px;
-  max-width: 30%;
-  min-width: 500px;
-  color : white;
-}
-
-div {
-  height: 100%;
-  width: 100%;
-}
-
-.container {
-  display: flex;
-}
-
-
-
-
-
-
-
-.contact-h3t{
-    font-size:  1.2em;
-  	font-weight: bold;
-  	color: #e64207;
-}
-
-.contact-h3c{
-    font-size:  1.2em;
-  	font-weight: bold;
-  	color: #e64207;
-  	text-align: center;
-  	margin-left: -1em;
-}
-
-.m{
-  	text-align: center;  
-}
-
-.b{
-  	text-align: center;
-  	border-top: 0.1em dashed #C2BCB7;
-}
-
-.marge {
-margin-left: 5em;
-}
-
-.marge2 {
-margin-left: 13em;
-}
-
-/* logo */
-
-.fit-picture {
-    width: 15px;
-}
-
-.fit-picture2 {
-    width: 20px;
-}
-
-.fit-social {
-    width: 25px;
-}
-
-.fit-titre {
-    width: 30px;
-}
-
-.fit-logo {
-    width: 120px;
-  	margin-left: 4em;
-}
-
-.fit-logo2 {
-    width: 120px;
-  	margin-left: 38em;
-}
-
-.fit-langue {
-    width: 22px;
-}
-
-
-
-/* sections */
-
-section{
-    display: flex; 
-    flex-flow: row wrap;
-    justify-content: center;
-    padding-bottom: 20px;
-    margin: 15px auto;
-    box-shadow: 0px 0px 15px #bbb;
-    background-color: #fff;
-    border-radius: 10px;
-}
-
-section h2{
-    margin: 20px 0;
-    width: 90%;
-}
-
-section > div{
-    width: 90%;
-}
-
-
-/* coordonnées */
-
-.prez{
-  border-top: 0.3rem solid #2a5670;  
-  border-bottom: 0.3rem solid #2a5670;
-    text-align: center;
-}
-
-.contact-flex{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-}
-
-.contact-flex p:first-child{
-    flex: 0 0 75%;
-
-}
-
-.flex2{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-}
-
-.flex2 p:first-child{
-    flex: 0 0 68%;
-
-}
-
-/* expériences */
-
-.exp{
-    display: flex;
-    border-top: 0.1em dashed #bbb;
-    padding-top: 15px;
-    margin-top: 15px;
-}
-
-.exp h3{
-    font-size:  1.2em;
-    font-weight: bold;
-}
-
-.exp h3t{
-    font-size:  1.2em;
-  	font-weight: bold;
-  	color: #e64207;
-}
+<!DOCTYPE html>
+<html lang="FR">
+<head>
+	<meta charset="UTF-8">
+	<title>Resume CV Design</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="resume">
+			<div class="left">
+				<div class="img_holder">
+					<img src="file:///Users/koria/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/CVV/koria%20pic.jpg" alt="picture">
+				</div>
+				<div class="contact_wrap pb">
+					<div class="title">
+						Contact
+					</div>
+					<div class="Telephone">
+						<ul>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-mobile-alt" aria-hidden="true"></i></div>
+									<div class="text">0641493318</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+									<div class="text">e.m_koria@hotmail.fr</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fab fa-weebly" aria-hidden="true"></i></div>
+									<div class="text">www.aniabukstein.com</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-map-signs" aria-hidden="true"></i></div>
+									<div class="text">32 rue Mazenod 13002 Marseille</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="skills_wrap pb">
+					<div class="title">
+						Skills
+					</div>
+					<div class="skills">
+						<ul>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fab fa-html5"></i></div>
+									<div class="text">HTML</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fab fa-css3-alt"></i></div>
+									<div class="text">CSS</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="far fa-file-excel"></i></div>
+									<div class="text">EXCEL</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="far fa-ghost"></i></div>
+									<div class="text">PHANTOMBUSTER</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="hobbies_wrap pb">
+					<div class="title">
+						hobbies
+					</div>
+					<div class="hobbies">
+						<ul>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-book"></i></div>
+									<div class="text">Lecture</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-music"></i></div>
+									<div class="text">Music</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-running"></i></div>
+									<div class="text">Athletisme</div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="icon"><i class="fas fa-boxing-glove"></i></div>
+									<div class="text">Boxe</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="right">
+				<div class="header">
+					<div class="name_role">
+						<div class="name">
+							El Mamlouki Koria
+						</div>
+						<div class="role">
+							Aspirante Business Developer
+						</div>
+					</div>
+					<div class="about">
+						Jeune femme de 23ans, très créatif et commerciale dans l'âme. J'ai une aisence particulière avec le contact humain, le travaille d'équipe et les nouvelles technologies
+						<div class="icon"><i class="fas fa-rocket"></i></div>
+					</div>
+				</div>
+				<div class="right_inner">
+					<div class="exp">
+						<div class="title">
+							expériences
+						</div>
+						<div class="exp_wrap">
+							<ul>
+								<li>
+									<div class="li_wrap">
+										<div class="date">
+											
+										</div>
+										<div class="info">
+											<p class="info_title">
+												Serveuse
+											</p>
+											<p class="info_com">
+												La criée 
+											</p>
+											<p class="info_cont">
+												Acceuillir et accompagner la clientèle
+												Prise de commande
+												Encaissement des clients
+											</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="li_wrap">
+										<div class="date">
+											
+										</div>
+										<div class="info">
+											<p class="info_title">
+												Stage etude notarial
+											</p>
+											<p class="info_com">
+												Maître DUBUIS
+											</p>
+											<p class="info_cont">
+												Rédaction d'actes, acceuil, standard téléphonique, recherches d'informations
+											</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="li_wrap">
+										<div class="date">
+											
+										</div>
+										<div class="info">
+											<p class="info_title">
+												Préparateur de commande
+											</p>
+											<p class="info_com">
+												Auchan
+											</p>
+											<p class="info_cont">
+												Réapprovisionnement des rayons 
+												Vérification des arrivées
+												Réception de la marchandise
+											</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="education">
+						<div class="title">
+							Formations
+						</div>
+						<div class="education_wrap">
+							<ul>
+								<li>
+									<div class="li_wrap">
+										<div class="date">
+											
+										</div>
+										<div class="info">
+											<p class="info_title">
+												Licence 1 Droit
+											</p>
+											<p class="info_com">
+												Université Paris Nanterre
+											</p>
+											<p class="info_cont">
+											Droit Civil 
+											Droit Constitutionelle
+											</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="li_wrap">
+										<div class="date">
+											
+										</div>
+										<div class="info">
+											<p class="info_title">
+												Licence 2 Droit
+											</p>
+											<p class="info_com">
+												Université Prais Nanterre
+											</p>
+											<p class="info_cont">
+												Finance publique 
+												Droit administratif
+												Droit pénal
+											</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="li_wrap">
+										<div class="date">
+											
+										</div>
+										<div class="info">
+											<p class="info_title">
+												Licence 3 Droit
+											</p>
+											<p class="info_com">
+												Université Paris Nanterre
+											</p>
+											<p class="info_cont">
+												Droit du travail
+												Relation international
+												Droit des contrats
+											</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
