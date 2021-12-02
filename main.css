@@ -1,272 +1,237 @@
-<!DOCTYPE html>
-<html lang="FR">
-<head>
-	<meta charset="UTF-8">
-	<title>Resume CV Design</title>
-	<link rel="stylesheet" href="styles.css">
-	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-</head>
-<body>
-	<div class="wrapper">
-		<div class="resume">
-			<div class="left">
-				<div class="img_holder">
-					<img src="file:///Users/koria/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/CVV/koria%20pic.jpg" alt="picture">
-				</div>
-				<div class="contact_wrap pb">
-					<div class="title">
-						Contact
-					</div>
-					<div class="Telephone">
-						<ul>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-mobile-alt" aria-hidden="true"></i></div>
-									<div class="text">0641493318</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
-									<div class="text">e.m_koria@hotmail.fr</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fab fa-weebly" aria-hidden="true"></i></div>
-									<div class="text">www.aniabukstein.com</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-map-signs" aria-hidden="true"></i></div>
-									<div class="text">32 rue Mazenod 13002 Marseille</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="skills_wrap pb">
-					<div class="title">
-						Skills
-					</div>
-					<div class="skills">
-						<ul>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fab fa-html5"></i></div>
-									<div class="text">HTML</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fab fa-css3-alt"></i></div>
-									<div class="text">CSS</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="far fa-file-excel"></i></div>
-									<div class="text">EXCEL</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="far fa-ghost"></i></div>
-									<div class="text">PHANTOMBUSTER</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="hobbies_wrap pb">
-					<div class="title">
-						hobbies
-					</div>
-					<div class="hobbies">
-						<ul>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-book"></i></div>
-									<div class="text">Lecture</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-music"></i></div>
-									<div class="text">Music</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-running"></i></div>
-									<div class="text">Athletisme</div>
-								</div>
-							</li>
-							<li>
-								<div class="li_wrap">
-									<div class="icon"><i class="fas fa-boxing-glove"></i></div>
-									<div class="text">Boxe</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="right">
-				<div class="header">
-					<div class="name_role">
-						<div class="name">
-							El Mamlouki Koria
-						</div>
-						<div class="role">
-							Aspirante Business Developer
-						</div>
-					</div>
-					<div class="about">
-						Jeune femme de 23ans, très créatif et commerciale dans l'âme. J'ai une aisence particulière avec le contact humain, le travaille d'équipe et les nouvelles technologies
-						<div class="icon"><i class="fas fa-rocket"></i></div>
-					</div>
-				</div>
-				<div class="right_inner">
-					<div class="exp">
-						<div class="title">
-							expériences
-						</div>
-						<div class="exp_wrap">
-							<ul>
-								<li>
-									<div class="li_wrap">
-										<div class="date">
-											
-										</div>
-										<div class="info">
-											<p class="info_title">
-												Serveuse
-											</p>
-											<p class="info_com">
-												La criée 
-											</p>
-											<p class="info_cont">
-												Acceuillir et accompagner la clientèle
-												Prise de commande
-												Encaissement des clients
-											</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="li_wrap">
-										<div class="date">
-											
-										</div>
-										<div class="info">
-											<p class="info_title">
-												Stage etude notarial
-											</p>
-											<p class="info_com">
-												Maître DUBUIS
-											</p>
-											<p class="info_cont">
-												Rédaction d'actes, acceuil, standard téléphonique, recherches d'informations
-											</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="li_wrap">
-										<div class="date">
-											
-										</div>
-										<div class="info">
-											<p class="info_title">
-												Préparateur de commande
-											</p>
-											<p class="info_com">
-												Auchan
-											</p>
-											<p class="info_cont">
-												Réapprovisionnement des rayons 
-												Vérification des arrivées
-												Réception de la marchandise
-											</p>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="education">
-						<div class="title">
-							Formations
-						</div>
-						<div class="education_wrap">
-							<ul>
-								<li>
-									<div class="li_wrap">
-										<div class="date">
-											
-										</div>
-										<div class="info">
-											<p class="info_title">
-												Licence 1 Droit
-											</p>
-											<p class="info_com">
-												Université Paris Nanterre
-											</p>
-											<p class="info_cont">
-											Droit Civil 
-											Droit Constitutionelle
-											</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="li_wrap">
-										<div class="date">
-											
-										</div>
-										<div class="info">
-											<p class="info_title">
-												Licence 2 Droit
-											</p>
-											<p class="info_com">
-												Université Prais Nanterre
-											</p>
-											<p class="info_cont">
-												Finance publique 
-												Droit administratif
-												Droit pénal
-											</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="li_wrap">
-										<div class="date">
-											
-										</div>
-										<div class="info">
-											<p class="info_title">
-												Licence 3 Droit
-											</p>
-											<p class="info_com">
-												Université Paris Nanterre
-											</p>
-											<p class="info_cont">
-												Droit du travail
-												Relation international
-												Droit des contrats
-											</p>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</body>
-</html>
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background: linear-gradient(to right, #cbb9aa, #8E8177);
+}
+
+.resume{
+	width: 800px;
+	background: #fff;
+	margin: 25px auto;
+	display: flex;
+}
+
+.left{
+	background: #796F66;
+	width: 250px;
+	padding: 0 20px;
+}
+
+.right{
+	width: calc(100% - 250px);
+}
+
+.left .img_holder{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.left .img_holder img{
+	width: 200px;
+	border-radius: 30px;
+}
+
+.pb{
+	padding-bottom: 20px;
+}
+
+.title{
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	color: #433936;
+	position: relative;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.title:before{
+	content: "";
+	position: absolute;
+	top: 35px;
+	right: 0;
+	width: 50px;
+	height: 3px;
+	background: #8E8177;
+}
+
+.left .icon{
+	font-size: 20px;
+	color: #8E8177;
+}
+
+.left .text{
+	color: #8E8177;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.contact .li_wrap{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.contact .li_wrap .icon{
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+}
+
+.contact .li_wrap .text{
+	width: calc(120% - 50px);
+	word-break:breaK-word;
+	color: #3C3733;
+}
+
+.skills ul,
+.hobbies ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.skills .li_wrap,
+.hobbies .li_wrap{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills .li_wrap{
+	background: #fff;
+}
+
+.skills .li_wrap .text,
+.hobbies .li_wrap .text{
+	margin-top: 5px;
+}
+
+.hobbies .li_wrap{
+	border: 2px solid #514A44;
+}
+
+.hobbies .li_wrap .icon,
+.hobbies .li_wrap .text{
+	color: #8E8177;
+}
+
+.hobbies .li_wrap:hover{
+	background: #fff;
+}
+
+.hobbies .li_wrap:hover .icon,
+.hobbies .li_wrap:hover .text{
+	color: #8E8177;
+}
+
+.header{
+	background: #A29488;
+	padding: 15px 30px;
+	color: #000000;
+	height: 240px;
+}
+
+.header .name{
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align:center;
+	font-weight: 700;
+	color: #3C3733;
+}
+
+.header .role{
+	font-weight:400;
+	font-size: 20px;
+	text-align:center;
+}
+
+.header .about{
+	margin-top: 20px;
+	line-height: 26px;
+	text-align:center;
+}
+
+.right_inner{
+	padding: 30px;
+	color: #141211;
+}
+
+.right_inner .education{
+	margin-top: 30px;
+}
+
+.right_inner .li_wrap{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.right_inner .li_wrap .date {
+    width: 125px;
+    color: #fff;
+}
+
+.right_inner .li_wrap .info{
+	width: calc(100%  - 125px);
+	padding-left: 25px;
+	position:relative;
+}
+
+.right_inner .li_wrap .info_title{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #3C3733;
+}
+
+.right_inner .li_wrap .info_com{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 3px;
+}
+
+.right_inner .li_wrap .info_cont{
+	margin-top: 15px;
+}
+
+.right_inner .li_wrap .info:before{
+	content: "";
+	position:absolute;
+	top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: #5A4C48;
+	border-radius: 50%;
+}
+
+.right_inner .li_wrap .info:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 2px;
+	height: 90%;
+	background: #5A4C48;
+}
